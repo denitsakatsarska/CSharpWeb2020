@@ -2,27 +2,25 @@
 {
     using System.Collections.Generic;
     using BattleCards.Data;
+    using BattleCards.Services;
     using Microsoft.EntityFrameworkCore;
     using SIS.HTTP;
     using SIS.MvcFramework;
 
     public class Startup : IMvcApplication
     {
+        
         public void Configure(IList<Route> routeTable)
         {
-
             //new ApplicationDbContext().Database.Migrate();
-
-
-            using (var db = new ApplicationDbContext())
+               using (var db = new ApplicationDbContext())
             {
                 db.Database.EnsureCreated();
             }
         }
-
         public void ConfigureServices(IServiceCollection serviceCollection)
         {
-            
+            serviceCollection.Add<IUsersService, UsersService>();
         }
     }
 }

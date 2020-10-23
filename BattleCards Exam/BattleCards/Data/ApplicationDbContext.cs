@@ -5,23 +5,32 @@
 
     public class ApplicationDbContext : DbContext
     {
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        public ApplicationDbContext()
         {
-            if (!optionsBuilder.IsConfigured)
-            {
-                optionsBuilder.UseSqlServer("Server=.;Database=BattleCards-Deni;Integrated Security=true;");
-            }
-
-            base.OnConfiguring(optionsBuilder);
         }
 
+        public ApplicationDbContext(DbContextOptions dbContextOptions)
+            : base(dbContextOptions)
+        {
+        }
+
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        {
+
+            optionsBuilder.UseSqlServer("Server=.;Database=BattleCards-Deni;Integrated Security=true;");
+        }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<UserCard>()
-        .HasKey(x => new { x.CardId, x.UserId });
+            modelBuilder.Entity<UserCard>().HasKey(x => new { x.CardId, x.UserId });
 
             base.OnModelCreating(modelBuilder);
         }
+
+        public DbSet<User> Users { get; set; }
+
+        public DbSet<Card> Cards { get; set; }
+
+        public DbSet<UserCard> UserCards { get; set; }
     }
 }
