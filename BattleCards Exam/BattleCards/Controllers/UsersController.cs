@@ -23,19 +23,7 @@ namespace BattleCards.Controllers
         [HttpPost]
         public HttpResponse Login(LoginInputModel input)
         {
-
             return this.View();
-
-            //var userId = this.usersService.GetUserId(input.Username, input.Password);
-
-
-            //if (userId == null)
-            //{
-            //    return this.Error("Invalid username or password");
-            //}
-
-            //this.SignIn(userId);
-            //return this.Redirect("/Trips/All");
         }
 
 
@@ -71,6 +59,18 @@ namespace BattleCards.Controllers
             this.usersService.Create(input.Username, input.Email, input.Password);
 
             return this.Redirect("/Users/Login");
+        }
+
+        public HttpResponse Logout()
+        {
+            if (!this.IsUserLoggedIn())
+            {
+                return this.Redirect("/Users/Login");
+
+            }
+
+            this.SignOut();
+            return this.Redirect("/");
         }
     }
 }
