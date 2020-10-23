@@ -1,0 +1,12 @@
+D:\Visual Studio\C# web basics\C# Web - 2020\BattleCards Exam\SIS.MvcFramework\bin\Debug\netstandard2.0\SIS.MvcFramework.deps.json
+D:\Visual Studio\C# web basics\C# Web - 2020\BattleCards Exam\SIS.MvcFramework\bin\Debug\netstandard2.0\SIS.MvcFramework.dll
+D:\Visual Studio\C# web basics\C# Web - 2020\BattleCards Exam\SIS.MvcFramework\bin\Debug\netstandard2.0\SIS.MvcFramework.pdb
+D:\Visual Studio\C# web basics\C# Web - 2020\BattleCards Exam\SIS.MvcFramework\bin\Debug\netstandard2.0\SIS.HTTP.dll
+D:\Visual Studio\C# web basics\C# Web - 2020\BattleCards Exam\SIS.MvcFramework\bin\Debug\netstandard2.0\SIS.HTTP.pdb
+D:\Visual Studio\C# web basics\C# Web - 2020\BattleCards Exam\SIS.MvcFramework\obj\Debug\netstandard2.0\SIS.MvcFramework.csprojAssemblyReference.cache
+D:\Visual Studio\C# web basics\C# Web - 2020\BattleCards Exam\SIS.MvcFramework\obj\Debug\netstandard2.0\SIS.MvcFramework.AssemblyInfoInputs.cache
+D:\Visual Studio\C# web basics\C# Web - 2020\BattleCards Exam\SIS.MvcFramework\obj\Debug\netstandard2.0\SIS.MvcFramework.AssemblyInfo.cs
+D:\Visual Studio\C# web basics\C# Web - 2020\BattleCards Exam\SIS.MvcFramework\obj\Debug\netstandard2.0\SIS.MvcFramework.csproj.CoreCompileInputs.cache
+D:\Visual Studio\C# web basics\C# Web - 2020\BattleCards Exam\SIS.MvcFramework\obj\Debug\netstandard2.0\SIS.MvcFramework.csproj.CopyComplete
+D:\Visual Studio\C# web basics\C# Web - 2020\BattleCards Exam\SIS.MvcFramework\obj\Debug\netstandard2.0\SIS.MvcFramework.dll
+D:\Visual Studio\C# web basics\C# Web - 2020\BattleCards Exam\SIS.MvcFramework\obj\Debug\netstandard2.0\SIS.MvcFramework.pdb

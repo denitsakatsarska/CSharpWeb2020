@@ -891,11 +891,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Visual Studio\\C# web basics\\ExamPrep\\BattleCards Exam\\SIS.MvcFramework\\SIS.MvcFramework.csproj",
+      "projectUniqueName": "D:\\Visual Studio\\C# web basics\\C# Web - 2020\\BattleCards Exam\\SIS.MvcFramework\\SIS.MvcFramework.csproj",
       "projectName": "SIS.MvcFramework",
-      "projectPath": "D:\\Visual Studio\\C# web basics\\ExamPrep\\BattleCards Exam\\SIS.MvcFramework\\SIS.MvcFramework.csproj",
+      "projectPath": "D:\\Visual Studio\\C# web basics\\C# Web - 2020\\BattleCards Exam\\SIS.MvcFramework\\SIS.MvcFramework.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "D:\\Visual Studio\\C# web basics\\ExamPrep\\BattleCards Exam\\SIS.MvcFramework\\obj\\",
+      "outputPath": "D:\\Visual Studio\\C# web basics\\C# Web - 2020\\BattleCards Exam\\SIS.MvcFramework\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -911,8 +911,8 @@
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-            "D:\\Visual Studio\\C# web basics\\ExamPrep\\BattleCards Exam\\SIS.HTTP\\SIS.HTTP.csproj": {
-              "projectPath": "D:\\Visual Studio\\C# web basics\\ExamPrep\\BattleCards Exam\\SIS.HTTP\\SIS.HTTP.csproj"
+            "D:\\Visual Studio\\C# web basics\\C# Web - 2020\\BattleCards Exam\\SIS.HTTP\\SIS.HTTP.csproj": {
+              "projectPath": "D:\\Visual Studio\\C# web basics\\C# Web - 2020\\BattleCards Exam\\SIS.HTTP\\SIS.HTTP.csproj"
             }
           }
         }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xjYHnq8B3u8qSPWmerZfKhoql86pO42Z+xAHWgWcDi/vx7bMsxLj//RMuXyKIi1QvYroz7EGil7IZn7tbMhXvw==",
+  "dgSpecHash": "u5lzCoPt7PUTy8tCKkiAN9kpoinLMIC/qqj1e1BwZnlEHIXFknthORxbP57tb1Xvt0kljTFrEP6hK2RgwSkguA==",
   "success": true,
-  "projectFilePath": "D:\\Visual Studio\\C# web basics\\ExamPrep\\BattleCards Exam\\SIS.MvcFramework\\SIS.MvcFramework.csproj",
+  "projectFilePath": "D:\\Visual Studio\\C# web basics\\C# Web - 2020\\BattleCards Exam\\SIS.MvcFramework\\SIS.MvcFramework.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\User\\.nuget\\packages\\microsoft.codeanalysis.analyzers\\2.9.6\\microsoft.codeanalysis.analyzers.2.9.6.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\microsoft.codeanalysis.common\\3.4.0\\microsoft.codeanalysis.common.3.4.0.nupkg.sha512",
