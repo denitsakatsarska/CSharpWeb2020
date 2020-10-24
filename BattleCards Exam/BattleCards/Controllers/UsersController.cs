@@ -23,9 +23,21 @@ namespace BattleCards.Controllers
         [HttpPost]
         public HttpResponse Login(LoginInputModel input)
         {
-            return this.View();
-        }
+            var userId = this.usersService.GetUserId(input.Username, input.Password);
 
+
+            if (userId == null)
+            {
+                // ако е null имаме неуспешно логване, заради грешен потребител или парола
+                return this.Error("Invalid username or password");
+            }
+
+            // ако не е null – login + redirect
+            this.SignIn(userId);
+
+            return this.Redirect("/Cards/All");
+
+        }
 
         public HttpResponse Register()
         {
@@ -46,7 +58,7 @@ namespace BattleCards.Controllers
                 return this.Error("Email is required.");
             }
 
-            if (string.IsNullOrWhiteSpace(input.Password) || input.Password.Length < 6 || input.Password.Length > 20)
+            if (string.IsNullOrWhiteSpace(input.Password) || input.Password.Length < 6)
             {
                 return this.Error("Password should be between 6 and 20 characters.");
             }
