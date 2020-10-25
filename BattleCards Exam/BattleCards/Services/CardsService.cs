@@ -3,6 +3,7 @@ using BattleCards.Models;
 using BattleCards.ViewModels.Cards;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 
 namespace BattleCards.Services
@@ -26,7 +27,7 @@ namespace BattleCards.Services
                 Attack = input.Attack,
                 Health = input.Health,
                 Description = input.Description
-                
+
             };
 
             this.db.Cards.Add(card);
@@ -37,22 +38,59 @@ namespace BattleCards.Services
 
         public void AddCardToUserCollection(string userId, int cardId)
         {
-            throw new NotImplementedException();
+            if (this.db.UserCards.Any(x => x.UserId == userId && x.CardId == cardId))
+            {
+                return;
+            }
+
+            this.db.UserCards.Add(new UserCard
+            {
+                CardId = cardId,
+                UserId = userId,
+            });
+
+            this.db.SaveChanges();
         }
 
         public IEnumerable<CardViewModel> GetAll()
         {
-            throw new NotImplementedException();
+            return this.db.Cards.Select(x => new CardViewModel
+            {
+                Id = x.Id,
+                Name = x.Name,
+                Description = x.Description,
+                Attack = x.Attack,
+                Health = x.Health,
+                ImageUrl = x.ImageUrl,
+                Type = x.Keyword,
+            }).ToList();
         }
 
         public IEnumerable<CardViewModel> GetByUserId(string userId)
         {
-            throw new NotImplementedException();
+            return this.db.UserCards.Where(x => x.UserId == userId)
+                .Select(x => new CardViewModel
+                {
+                    Attack = x.Card.Attack,
+                    Description = x.Card.Description,
+                    Health = x.Card.Health,
+                    ImageUrl = x.Card.ImageUrl,
+                    Name = x.Card.Name,
+                    Type = x.Card.Keyword,
+                    Id = x.CardId,
+                }).ToList();
         }
 
         public void RemoveCardFromUserCollection(string userId, int cardId)
         {
-            throw new NotImplementedException();
+            var userCard = this.db.UserCards.FirstOrDefault(x => x.UserId == userId && x.CardId == cardId);
+            if (userCard == null)
+            {
+                return;
+            }
+
+            this.db.UserCards.Remove(userCard);
+            this.db.SaveChanges();
         }
     }
 }

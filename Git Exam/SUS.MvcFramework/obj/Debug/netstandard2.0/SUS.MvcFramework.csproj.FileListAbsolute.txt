@@ -1,0 +1,12 @@
+D:\Visual Studio\C# web basics\C# Web - 2020\Git Exam\SUS.MvcFramework\bin\Debug\netstandard2.0\SUS.MvcFramework.deps.json
+D:\Visual Studio\C# web basics\C# Web - 2020\Git Exam\SUS.MvcFramework\bin\Debug\netstandard2.0\SUS.MvcFramework.dll
+D:\Visual Studio\C# web basics\C# Web - 2020\Git Exam\SUS.MvcFramework\bin\Debug\netstandard2.0\SUS.MvcFramework.pdb
+D:\Visual Studio\C# web basics\C# Web - 2020\Git Exam\SUS.MvcFramework\bin\Debug\netstandard2.0\SUS.HTTP.dll
+D:\Visual Studio\C# web basics\C# Web - 2020\Git Exam\SUS.MvcFramework\bin\Debug\netstandard2.0\SUS.HTTP.pdb
+D:\Visual Studio\C# web basics\C# Web - 2020\Git Exam\SUS.MvcFramework\obj\Debug\netstandard2.0\SUS.MvcFramework.csprojAssemblyReference.cache
+D:\Visual Studio\C# web basics\C# Web - 2020\Git Exam\SUS.MvcFramework\obj\Debug\netstandard2.0\SUS.MvcFramework.AssemblyInfoInputs.cache
+D:\Visual Studio\C# web basics\C# Web - 2020\Git Exam\SUS.MvcFramework\obj\Debug\netstandard2.0\SUS.MvcFramework.AssemblyInfo.cs
+D:\Visual Studio\C# web basics\C# Web - 2020\Git Exam\SUS.MvcFramework\obj\Debug\netstandard2.0\SUS.MvcFramework.csproj.CoreCompileInputs.cache
+D:\Visual Studio\C# web basics\C# Web - 2020\Git Exam\SUS.MvcFramework\obj\Debug\netstandard2.0\SUS.MvcFramework.csproj.CopyComplete
+D:\Visual Studio\C# web basics\C# Web - 2020\Git Exam\SUS.MvcFramework\obj\Debug\netstandard2.0\SUS.MvcFramework.dll
+D:\Visual Studio\C# web basics\C# Web - 2020\Git Exam\SUS.MvcFramework\obj\Debug\netstandard2.0\SUS.MvcFramework.pdb

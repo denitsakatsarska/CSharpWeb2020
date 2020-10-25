@@ -16,12 +16,15 @@
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-
-            optionsBuilder.UseSqlServer("Server=.;Database=BattleCards-Deni;Integrated Security=true;");
+            if (!optionsBuilder.IsConfigured)
+            {
+                optionsBuilder.UseSqlServer("Server=.;Database=BattleCards;Integrated Security=true;");
+            }
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            // primary key за usercard
             modelBuilder.Entity<UserCard>().HasKey(x => new { x.CardId, x.UserId });
 
             base.OnModelCreating(modelBuilder);

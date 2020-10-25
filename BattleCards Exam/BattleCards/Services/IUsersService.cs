@@ -8,11 +8,10 @@ namespace BattleCards.Services
     {
         string GetUserId(string username, string password);
 
-        void Create(string username, string email, string password);
+        string Create(string username, string email, string password);
         
-        bool IUsernameAvaialble(string username);
+        bool IsUsernameAvailable(string username);
         
-        bool IEmailAvaialble(string email);
-
+        bool IsEmailAvailable(string email);
     }
 }

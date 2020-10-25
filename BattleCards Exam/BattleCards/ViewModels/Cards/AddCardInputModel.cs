@@ -6,7 +6,6 @@ namespace BattleCards.ViewModels.Cards
 {
     public class AddCardInputModel
     {
-
         public string Name { get; set; }
 
         public string Description { get; set; }

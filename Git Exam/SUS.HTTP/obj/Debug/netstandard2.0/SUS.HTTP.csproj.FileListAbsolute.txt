@@ -1,0 +1,9 @@
+D:\Visual Studio\C# web basics\C# Web - 2020\Git Exam\SUS.HTTP\bin\Debug\netstandard2.0\SUS.HTTP.deps.json
+D:\Visual Studio\C# web basics\C# Web - 2020\Git Exam\SUS.HTTP\bin\Debug\netstandard2.0\SUS.HTTP.dll
+D:\Visual Studio\C# web basics\C# Web - 2020\Git Exam\SUS.HTTP\bin\Debug\netstandard2.0\SUS.HTTP.pdb
+D:\Visual Studio\C# web basics\C# Web - 2020\Git Exam\SUS.HTTP\obj\Debug\netstandard2.0\SUS.HTTP.csprojAssemblyReference.cache
+D:\Visual Studio\C# web basics\C# Web - 2020\Git Exam\SUS.HTTP\obj\Debug\netstandard2.0\SUS.HTTP.AssemblyInfoInputs.cache
+D:\Visual Studio\C# web basics\C# Web - 2020\Git Exam\SUS.HTTP\obj\Debug\netstandard2.0\SUS.HTTP.AssemblyInfo.cs
+D:\Visual Studio\C# web basics\C# Web - 2020\Git Exam\SUS.HTTP\obj\Debug\netstandard2.0\SUS.HTTP.csproj.CoreCompileInputs.cache
+D:\Visual Studio\C# web basics\C# Web - 2020\Git Exam\SUS.HTTP\obj\Debug\netstandard2.0\SUS.HTTP.dll
+D:\Visual Studio\C# web basics\C# Web - 2020\Git Exam\SUS.HTTP\obj\Debug\netstandard2.0\SUS.HTTP.pdb

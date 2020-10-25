@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "0eHZI6Nk9hAngvMVSYumJzw5pHsoCMCSXrR6Z6kf6g85sKO23V4SdS1H3pNnxjuWVVihmKHMw04ml2CSq+fg1A==",
+  "success": true,
+  "projectFilePath": "D:\\Visual Studio\\C# web basics\\C# Web - 2020\\Git Exam\\SUS.HTTP\\SUS.HTTP.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
