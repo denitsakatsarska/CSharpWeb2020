@@ -1,6 +1,8 @@
 ﻿using Git.Data;
+using Git.Models;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Security.Cryptography;
 using System.Text;
 
@@ -18,22 +20,39 @@ namespace Git.Services
 
         public string CreateUser(string username, string email, string password)
         {
-            throw new NotImplementedException();
+            var user = new User
+            {
+                Username = username,
+                Email = email,
+                Password = ComputeHash(password)
+            };
+
+            this.db.Users.Add(user);
+            this.db.SaveChanges();
+
+            return user.Id;
         }
 
         public string GetUserId(string username, string password)
         {
-            throw new NotImplementedException();
+            var user = this.db.Users.FirstOrDefault(x => x.Username == username);
+
+            if (user?.Password != ComputeHash(password))
+            {
+                return null;
+            }
+
+            return user.Id;
         }
 
         public bool IsEmailAvailable(string email)
         {
-            throw new NotImplementedException();
+            return !this.db.Users.Any(x => x.Email == email);
         }
 
         public bool IsUsernameAvailable(string username)
         {
-            throw new NotImplementedException();
+            return !this.db.Users.Any(x => x.Username == username);
         }
 
 
