@@ -1,5 +1,6 @@
 ﻿namespace Git.Data
 {
+    using Git.Models;
     using Microsoft.EntityFrameworkCore;
 
     public class ApplicationDbContext : DbContext
@@ -20,5 +21,11 @@
                 optionsBuilder.UseSqlServer("Server=.;Database=Git-DenitsaKatsarska;Integrated Security=true;");
             }
         }
+
+        public DbSet<User> Users { get; set; }
+
+        public DbSet<Commit> Commits { get; set; }
+
+        public DbSet<Repository> Repositories { get; set; }
     }
 }
